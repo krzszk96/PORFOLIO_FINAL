@@ -1,0 +1,93 @@
+html, body {
+  height: 100%;
+  margin: 0; }
+
+#wrapper_home {
+  min-height: 100%;
+  background-color: #fff; }
+
+nav {
+  background: #fff;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000 !important; }
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+
+nav a {
+  text-decoration: none;
+  text-align: center;
+  font-family: 'extravaganzza';
+  color: #494547;
+  font-size: 30px;
+  display: block;
+  padding: 10px;
+  margin-right: 50px; }
+  nav a:hover {
+    color: #919191; }
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end; }
+
+.logo {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 0;
+  top: 0;
+  background: url(../images/newlogo-icon.png);
+  background-size: contain; }
+
+.home_text {
+  position: absolute;
+  width: 388px;
+  height: 395px;
+  left: 270px;
+  top: 331px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.41); }
+
+.chris_photo {
+  position: absolute;
+  width: 450px;
+  height: 500px;
+  left: 820px;
+  top: 331px;
+  background: #C4C4C4; }
+
+#wrapper_projects {
+  min-height: 100%;
+  background-color: #000;
+  color: #fff; }
+
+#wrapper_about {
+  min-height: 100%;
+  background-color: green;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff; }
+
+#wrapper_contact {
+  min-height: 100%;
+  background-color: blue;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff; }
+
+@font-face {
+  font-family: 'extravaganzza';
+  src: url(../fonts/extravaganzza.ttf); }
